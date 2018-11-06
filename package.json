@@ -1,0 +1,30 @@
+{
+  "name": "blogapi",
+  "version": "1.0.0",
+  "description": "blog API using node express js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ex-git/blogAPI-node-express.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "js"
+  ],
+  "author": "Evan Xu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ex-git/blogAPI-node-express/issues"
+  },
+  "homepage": "https://github.com/ex-git/blogAPI-node-express#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "uuid": "^3.3.2"
+  }
+}
