@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: k/Kja5XQuA9JM9JRwxCNpsN7sRqbczrDtRtTgS01J/LJGmWufgyRQKjN9OtaCGC/QCVZqC2YGKpnwqznsQq9W3Ho7xEFxccZNAkcu2EhbItu/0jFgYhJmOSG3JrM5/W6gsAVenj0oR+8+WAkHUWPe7rvJuH656uavlPw+5kTlv5UsIEfwzs1MsRnsbp7Ol6fo/OY50yrvic0k6iHNzMUSYbEDhhJv1rvC1b/LJvapsn9L+e7quMMKWMAlNeYEB+z2zCNIEeOccwN6EiGGR+2Lmy6qtzQc8L+HN2xgptNHs8mXD7YJoao2M//hmDOZ0KOaF7IqgrSWF4Ad9jjCott0HtyXUjJ3wDJwgqEfzJQGfiYfz9YxBY2AnQ59wJDMfgpHjly+RZk5juNd6pWg04+bnDefJk1TG8uW7v7GuDe+8Bp+KW7gBu5d9Ga1M2zeu8CgeUlNYksld5Jdf8PBDKLEUA2yxdF7AsfYtvhfm/kGVBy8VQVGcwst6g8OEIhC9y21Wh2O+bo3JYbUaSCg5Xp4+CSkiRFu5c8lkAoFBmgqcWXZJHh6q1iljKv4dhBbbHo3fuwFXq01+n2pExWzxVh3ksbMzBHTBlosVVVGScWSzldaAnwW/Qe4qHKyMWM+HZ5GsUg3Af8Z7FUAd5xKBmE8bzo9mWkxPceXim+o0ktRa8=
+  app: immense-earth-10023
+  on:
+    repo: ex-git/blogAPI-node-express

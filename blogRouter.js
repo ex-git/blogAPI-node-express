@@ -10,13 +10,13 @@ BlogPosts.create("Second post", "This is the 2nd post", "Evan Xu", Date.now());
 
 // show all post with out specify id
 router.get('/', (req,res) => {
-    res.send(BlogPosts.get());
+    res.status(200).send(BlogPosts.get());
     console.log(`showing all posts`)
 })
 
 //show post match id requested
 router.get('/:id', (req,res) => {
-    res.send(BlogPosts.get(req.params.id));
+    res.status(200).send(BlogPosts.get(req.params.id));
     console.log(`post with id \"${req.params.id}\" requested`)
 })
 
